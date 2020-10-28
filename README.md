@@ -47,3 +47,15 @@ git add .
 git commit -m 'First commit'
 git push --set-upstream https://github.com/ajcwebdev/mintbean-rw master
 ```
+
+# Deploy to Netlify
+
+```
+yarn rw g deploy netlify
+```
+
+# Deploy to Vercel
+
+```
+yarn rw generate deploy vercel
+```
