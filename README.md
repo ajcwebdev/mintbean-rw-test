@@ -59,3 +59,11 @@ yarn rw g deploy netlify
 ```
 yarn rw generate deploy vercel
 ```
+
+# Deploy to Serverless
+
+```
+npm install -g serverless
+yarn rw generate deploy aws_serverless
+yarn rw deploy api aws_serverless
+```
